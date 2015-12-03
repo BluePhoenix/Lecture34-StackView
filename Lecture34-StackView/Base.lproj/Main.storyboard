@@ -87,7 +87,7 @@
                                                 </subviews>
                                                 <animations/>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="jEa-Wg-9vD">
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="jEa-Wg-9vD">
                                                 <rect key="frame" x="138" y="26" width="284" height="21"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ref. 774816 / USA Special Edition" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WoN-hH-NGL">
@@ -97,7 +97,7 @@
                                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$78.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cAU-zT-ft7">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$78.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cAU-zT-ft7">
                                                         <rect key="frame" x="232" y="0.0" width="52" height="21"/>
                                                         <animations/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
@@ -106,6 +106,9 @@
                                                     </label>
                                                 </subviews>
                                                 <animations/>
+                                                <constraints>
+                                                    <constraint firstItem="cAU-zT-ft7" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="WoN-hH-NGL" secondAttribute="trailing" constant="10" id="51m-Hf-dJY"/>
+                                                </constraints>
                                             </stackView>
                                         </subviews>
                                         <animations/>
